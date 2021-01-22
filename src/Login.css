@@ -1,0 +1,122 @@
+
+.login{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #402410;
+    padding:40px;
+
+    width:400px;
+   height:60vh;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    z-index:1;
+    color:#F7F8DF;
+}
+
+.login_logo{
+
+
+    width:300px;
+    height:300px;
+    object-fit:comtain;
+    margin-top:-90px;
+}
+
+.google__logo{
+
+    height:30px;
+    width:30px;
+    object-fit: contain;
+    margin-right:5px;
+    margin-left:35px;
+}
+
+
+.login__button{
+    background:rgb(182, 19, 19);
+    color:white;
+    outline:none;
+    border:none;
+    align-items:center;
+    padding:4px;
+    border-radius:15px;
+    cursor: pointer;
+   
+}
+
+.register__button{
+
+    background:rgb(20, 204, 20);
+    color:white;
+    outline:none;
+    border:none;
+    align-items:center;
+    padding:10px;
+    width:220px;
+
+
+}
+
+.login__button--direct{
+
+    background:brown;
+    color:white;
+    outline:none;
+    border:none;
+    align-items:center;
+    padding:10px;
+    width:220px;
+
+
+}
+
+button{
+
+    border-radius:15px;
+    cursor: pointer;
+}
+.login h2{
+
+    margin-top:-50px;
+}
+
+.login__button{
+
+    width:215px;
+
+    display:flex;
+    align-content:center;
+
+   
+}
+
+.login__button:hover{
+
+   background-color:rgb(146, 9, 9);
+
+   
+}
+
+.login__button--direct:hover{
+
+    background-color:rgb(146, 9, 9);
+ 
+    
+ }
+
+
+@media (max-width:600px)
+{
+    .login{
+
+      margin-left:-30px;
+       opacity:0.8;
+        height:60vh;
+        width:100vw;
+    }
+}

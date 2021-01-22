@@ -1,0 +1,11 @@
+.remove_button{
+    height:39px;
+    width:fit-content;
+    font-size: 15px;
+    padding:10px;
+    margin-top:-10px;
+}
+
+.overlay{
+    margin-top:20px;
+}

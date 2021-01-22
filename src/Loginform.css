@@ -1,0 +1,256 @@
+section{
+    position:relative;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+
+   background:url("smoothie.jpg");
+    height:100vh;
+    filter:blur(150px);
+  
+    overflow-y:hidden;
+
+
+
+}
+
+section .color{
+    position:absolute;
+}
+
+section .color:nth-child(1){
+
+    width:600px;
+    height:600px;
+
+    background:brown;
+   
+
+    top:-250px;
+
+    left:400px;
+}
+
+
+section .color:nth-child(2){
+
+    width:600px;
+    height:600px;
+
+    background:rgb(196, 196, 42);
+  
+
+    bottom:-350px;
+
+    left:600px;
+}
+
+section .color:nth-child(3){
+
+    width:300px;
+    height:600px;
+
+    background:rgb(15, 146, 207);
+   
+
+    bottom:-150px;
+
+    right:100px;
+}
+
+section .color:nth-child(4){
+
+    width:200px;
+    height:600px;
+
+    background:rgb(27, 223, 27);
+   
+
+    bottom:-150px;
+
+    left:100px;
+}
+
+.container{
+
+    
+
+     
+
+    position: absolute;
+  top:10%;
+  left:28%;
+  right:50%;
+
+  padding:20px;
+    backdrop-filter: blur(5px);
+    border-radius:10px;
+
+    width:500px;
+    height:80vh;
+    background:rgba(255,255,255,0.2);
+    box-shadow: 2px;
+}
+
+input{
+    width:100%;
+}
+
+.formbox{
+
+    display:flex;
+    justify-content: space-around;
+    height:100%;
+    
+ 
+    
+
+   
+}
+
+.container .formbox form{
+
+    display:flex;
+    padding:30px;
+    color:white;
+    flex-direction:column;
+    justify-content: space-around;
+   
+}
+
+.container .formbox form h1{
+
+   
+   font-size:30px;
+   margin-left:-10px;
+   padding:40px;
+   
+}
+
+input{
+
+    width:90%;
+    padding:10px;
+    border:none;
+    outline:none;
+   border-radius:25px;
+   margin-bottom:-40px;
+   
+    backdrop-filter: blur(5px);
+    font-size: 1.1em;
+
+    color:grey;
+}
+
+.inputbox{
+
+    border-radius:15px;
+    backdrop-filter: blur(5px);
+    width:100%;
+    margin-bottom:-30px;
+
+}
+
+button{
+    padding:10px;
+    color:white;
+    font-size:1.1em;
+    outline:none;
+    border:none;
+    background:rgb(65, 233, 65);
+}
+
+button:hover{
+    background:green;
+}
+
+
+@media (max-width:600px)
+{
+
+    .loginform{
+        height:100vh;
+        overflow:hidden;
+    }
+    .container.containerfill{
+
+        margin-top:-10px;
+    }
+    .loginform{
+        overflow: hidden;
+        padding:20px;
+    }
+
+    section{
+        padding:5px;
+    }
+
+    .formbox{
+        height:60vh;
+        margin-left:-70px;
+    }
+
+    .formfill{
+
+     height:50vh;
+    
+        margin-top:-80px;
+    }
+
+    
+.container .formbox form{
+
+    display:flex;
+    padding:60px;
+    color:white;
+    flex-direction:column;
+    justify-contet: center;
+    margin-left:70px;
+   
+}
+
+.container .formbox form h1{
+    margin-bottom:-20px;
+    margin-left:-25px;
+   
+    width:100vh;
+}
+
+.container{
+    overflow-x: hidden;
+    margin-top:40px;
+
+  
+}
+
+.inputBox{
+    margin-bottom:-10px;
+    width:260px;
+}
+.formbox{
+    overflow: hidden;
+}
+
+.login-button{
+
+    width:200px;
+    margin-left:30px;
+    margin-bottom:-20px;
+}
+
+
+}
+
+
+
+.inputBox{
+    margin-bottom:-40px;
+    width:260px;
+}
+
+.container .formbox form h1{
+    margin-bottom:-60px;
+   
+}

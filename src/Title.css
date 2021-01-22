@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Satisfy&display=swap');
+.title{
+
+width: 80vw;
+height: 10vh;
+display:flex;
+justify-content: space-around;
+margin-left:auto;
+margin-right:auto;
+align-items:center;
+margin-bottom:2vh;
+padding:20px;
+color:rgb(68, 4, 4);
+
+
+background:ffff;
+font-family: 'Satisfy' 'Sans-serif';
+}
+
+h1{
+
+    font-size:2.5em;
+    font-family:'Satisfy' 'Sans-serif';
+}
+
+@media (max-width:600px)
+{
+    .title{
+
+        width:90vw;
+        height:4vh;
+    }
+
+
+
+    h1{
+        font-size:1.4em;
+    }
+}

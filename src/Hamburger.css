@@ -1,0 +1,49 @@
+.hamburger{
+
+    position:absolute;
+
+    top:30px;
+    right:30px;
+
+    width:40px;
+    height:27px;
+    background-color: #402410;
+    z-index:1000;
+    display:none;
+    
+}
+
+
+.line1{
+
+    width:40px;
+    height:5px;
+    background-color:#FFFCCf;
+    margin-bottom:4px;
+}
+
+.line2{
+    width:30px;
+    height:5px;
+    background-color:#FFFCCf;
+    margin-bottom:4px;
+
+
+}
+
+.line3{
+
+    width:20px;
+    height:5px;
+    background-color:#FFFCCf;
+    margin-bottom:4px;
+}
+
+
+@media (max-width:600px)
+{
+    .hamburger{
+        display:block;
+        position:fixed;
+    }
+}

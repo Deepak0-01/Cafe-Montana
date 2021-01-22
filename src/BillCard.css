@@ -1,0 +1,96 @@
+.billcard{
+
+    height:400px;
+    width:400px;
+   position:fixed;
+   display: flex;
+   flex-direction:column;
+   justify-content: space-around;
+   padding:20px;
+   align-items: center;
+    top:200px;
+    right:200px;
+    color:rgb(61, 45, 45);
+
+    background:rgb(241, 198, 205);
+   border-radius:5px;
+}
+.billcard_details{
+
+    display:flex;
+    align-items: center;
+   margin-bottom:-10px;
+}
+
+.billcard_details span{
+    margin-right:20px;
+    font-size:1.3em;
+   
+}
+.billcard_details h2{
+   color:rgb(61, 45, 45);
+}
+
+
+
+@media (max-width:1200px){
+
+    .billcard{
+        height:130px;
+        width:200px;
+        top:106px;
+        right:0px;
+       
+        z-index:90;
+
+
+    }
+
+    .billcard_details h2{
+        font-size:15px;
+     }
+
+     .billcard_details span{
+        margin-right:7em;
+        font-size:0.9em;
+        margin-bottom:10px;
+       
+    }
+
+    .billcard_button{
+
+        margin-bottom:-18px;
+        font-size:15px;
+    }
+     
+}
+
+@media(max-width:600px)
+{
+
+    .billcard{
+        height:130px;
+        width:100vw;
+        top:90px;
+        right:0px;
+        left:0px;
+       
+        z-index:90;
+
+
+    }
+  .sp1{
+      margin-left:50px;
+  }
+
+  .billcard_button{
+
+    margin-bottom:-18px;
+    font-size:10px;
+}
+}
+
+.empemail{
+
+    font-size:20px;
+}

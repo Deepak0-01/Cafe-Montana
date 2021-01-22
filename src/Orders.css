@@ -1,0 +1,35 @@
+.orders{
+
+    display:flex;
+    justify-content: flex-start;
+    padding:100px;
+    background-image:url('smoothie.jpg');
+   
+    width:100vw;
+    overflow: hidden;
+}
+
+@media(max-width:600px)
+{
+
+    .orders_dishes{
+        display:flex;
+        flex-flow:column wrap;
+        margin-left:-50px;
+        margin-top:200px;
+    }
+}
+
+@media(max-width:1200px)
+{
+
+    .orders_dishes{
+        display:flex;
+        flex-flow:column wrap;
+        margin-left:-90px;
+        margin-top:200px;
+    }
+}
+
+
+
